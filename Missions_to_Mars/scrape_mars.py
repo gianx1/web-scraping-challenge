@@ -89,4 +89,5 @@ def scrape():
       img_dict=dict({'title': title, 'img_url': img_url})    
       hemisphere_image_urls.append(img_dict)
   mars_info['hemisphere_image_urls'] = hemisphere_image_urls
+  browser.quit()
   return mars_info
